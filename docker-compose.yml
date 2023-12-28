@@ -2,8 +2,7 @@ version: '3'
 
 services:
   php:
-    build:
-      ./
+    build: ./
     volumes:
       - ./src:/var/www/html
     ports:
